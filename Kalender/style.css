@@ -1,0 +1,46 @@
+div {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    border: 1px solid rgba(128, 128, 128, 0.312);
+    width: 600px;
+    height: 250px;
+    margin: auto;
+    border-collapse: collapse;
+    
+}
+
+.tableHead {
+    background-color: rgb(0, 132, 255);
+    color: white;
+}
+
+.highlight {
+    color: white;
+    background-color: red;
+}
+
+button {
+    width: 30px;
+    height: 40px;
+    background-color: rgb(0, 132, 255);
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(0, 100, 198);
+    cursor: pointer;
+}
+
+#prev, #next {
+    color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+h1 {
+    margin-bottom: 40px;
+}

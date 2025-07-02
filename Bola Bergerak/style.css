@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.kotak {
+    height: 400px;
+    width: 700px;
+    border-radius: 15px;
+    background-color: #5CB338;
+    align-items: center;
+    display: flex;
+}
+
+.bola {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FB4141;
+    position: relative;
+    animation-name: animasiBola;
+    animation-duration: 5s;
+}
+
+@keyframes animasiBola {
+    0% {
+        opacity: 0%;
+        left: 0px;
+        top: 0px;
+    }
+    5% {
+        opacity: 25%;
+    }
+    10% {
+        opacity: 50%;
+    }
+    15% {
+        opacity: 75%;
+    }
+    20% {
+        opacity: 100%;
+        left: 0px;
+        top: 0px;
+    }
+    40% {
+        opacity: 75%;
+        left: 650px;
+        top: 0px;
+    }
+    60% {
+        opacity: 50%;
+        left: 650px;
+        top: 175px;
+    }
+    80% {
+        opacity: 25%;
+        left: 0px;
+        top: 175px;
+    }
+    100% {
+        opacity: 0%;
+        left: 0px;
+        top: 0px;
+    }
+}
