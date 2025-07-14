@@ -1,5 +1,4 @@
 <?php
-<?php
 
 namespace Modules\Validation\Http\Controllers;
 
